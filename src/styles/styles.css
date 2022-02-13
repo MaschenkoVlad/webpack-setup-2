@@ -1,0 +1,24 @@
+@import "~normalize.css"; /* ~ - указываем что данную юиюлиотеку мы берем из нодмодулс */
+@import "roboto.css";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: darkcyan;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  background-image: url("../assets//webpack-logo.png");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
